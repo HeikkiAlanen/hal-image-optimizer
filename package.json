@@ -4,7 +4,8 @@
   "description": "Simple application to optimize images for web usage",
   "main": "index.js",
   "dependencies": {
-    "easyimage": "^1.0.2"
+    "easyimage": "^1.0.2",
+    "nomnom": "^1.8.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -12,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/HeikkiAlanen/hal-image-optimizer"
+    "url": "https://github.com/HeikkiAlanen/hal-image-optimizer.git"
   },
   "author": "Heikki Alanen <heikki.alanen@metropolia.fi>",
   "license": "MIT",

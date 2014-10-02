@@ -10,7 +10,7 @@ Planned features:
 - Starting point from the application "create-thumbnails"
 - User can define which kind of images are needed (size, name, format, quality)
 - User defined source directory
-- user defined target directory
+- User defined target directory
 - Created images are placed in target directory
 
 Releases:
