@@ -1,26 +1,3 @@
-hal-image-optimizer
-===================
-
-Simple application to optimize images for web usage.
-
-NOTE: Application uses EasyImage which is built on top of ImageMagick, so make sure ImageMagick is installed on your system.
-
-
-Planned features:
-- Starting point from the application "create-thumbnails"
-- User can define which kind of images are needed (size, name, format, quality)
-- User defined source directory
-- user defined target directory
-- Created images are placed in target directory
-
-Releases:
-v0.1.0: 
-* Thumbnails can be created from given directory and placed into that directory. 
-* Help and usage output
-* Version, license and copyright information
-
-v0.2.0: TBD
-
 The MIT License (MIT)
 
 Copyright (c) 2014 HeikkiAlanen
