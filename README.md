@@ -9,6 +9,8 @@ NOTE: Application uses EasyImage which is built on top of ImageMagick, so make s
 Planned features:
 - Starting point from the application "create-thumbnails"
 - User can define which kind of images are needed (size, name, format, quality)
+* from command line
+* via configuration file
 - User defined source directory
 - User defined target directory
 - Created images are placed in target directory
