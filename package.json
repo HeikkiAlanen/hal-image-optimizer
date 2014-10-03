@@ -3,6 +3,18 @@
   "version": "0.1.0",
   "description": "Simple application to optimize images for web usage",
   "main": "index.js",
+  "keywords": [
+    "imagemagick",
+    "image",
+    "resize",
+    "thumbnail"
+  ],
+   "files": [
+    "LICENSE.md",
+    "README.md",
+    "lib",
+    "index.js"
+  ],
   "dependencies": {
     "easyimage": "^1.0.2",
     "nomnom": "^1.8.0"
@@ -10,6 +22,9 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+ "engines": {
+    "node": ">=0.10"
   },
   "repository": {
     "type": "git",
