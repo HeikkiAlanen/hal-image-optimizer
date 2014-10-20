@@ -1,6 +1,9 @@
 /*
 	Grunt needs to be installed globally before grunt can be used. (`npm install -g grunt`)
 */
+'use strict';
+
+/*global module*/
 module.exports = function(grunt) {
 
     grunt.initConfig({
@@ -14,7 +17,7 @@ module.exports = function(grunt) {
 			all: ['./test/*_spec.js']
 		}
 	});
-  
+
   grunt.loadNpmTasks('grunt-eslint');
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
   grunt.registerTask('default', ['eslint']);
