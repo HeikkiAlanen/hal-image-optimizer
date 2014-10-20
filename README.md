@@ -21,7 +21,11 @@ v0.1.0:
 * Help and usage output
 * Version, license and copyright information
 
-v0.2.0: TBD
+v0.2.0:
+* Unit tests added.
+* Grunt taken into use.
+* ESLint for linting the code.
+* Travis CI build & testing taken into use.
 
 The MIT License (MIT)
 
