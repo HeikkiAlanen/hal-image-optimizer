@@ -15,7 +15,7 @@ var opts = require("nomnom")
          abbr: 'V',
 		 flag: true,
 		 callback: function() {
-			return ("Version: " + readVersion() + " License: " + readLicense() + ". Copyright (c) 2014 Heikki Alanen");
+			return ("Version: " + readVersion('./package.json') + " License: " + readLicense('./package.json') + ". Copyright (c) 2014 Heikki Alanen");
 		 },
          help: "Shows version of hal-image-optimizer"
       }

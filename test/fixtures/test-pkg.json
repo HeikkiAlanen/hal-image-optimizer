@@ -1,6 +1,5 @@
 {
   "name": "hal-image-optimizer",
-  "version": "0.1.0",
   "description": "Simple application to optimize images for web usage",
   "main": "index.js",
   "keywords": [
@@ -22,11 +21,10 @@
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-nodeunit": "^0.4.1",
-    "grunt-eslint": "^1.1.0",
-    "load-grunt-tasks": "^0.6.0"
+    "grunt-eslint": "^1.1.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
     "node": ">=0.10"
@@ -36,7 +34,6 @@
     "url": "https://github.com/HeikkiAlanen/hal-image-optimizer.git"
   },
   "author": "Heikki Alanen <heikki.alanen@metropolia.fi>",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/HeikkiAlanen/hal-image-optimizer/issues"
   },
