@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/HeikkiAlanen/hal-image-optimizer.svg?branch=master)](https://travis-ci.org/HeikkiAlanen/hal-image-optimizer)
+
 hal-image-optimizer
 ===================
 
