@@ -2,7 +2,8 @@
   "name": "hal-image-optimizer",
   "version": "0.1.0",
   "description": "Simple application to optimize images for web usage",
-  "main": "index.js",
+  "main": "./lib/hal-image-optimizer.js",
+  "bin": "./bin/cli.js",
   "keywords": [
     "imagemagick",
     "image",

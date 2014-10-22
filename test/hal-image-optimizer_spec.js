@@ -1,4 +1,4 @@
-var imgOptimizer = require('../lib/img-optimizer.js');
+var imgOptimizer = require('../lib/hal-image-optimizer.js');
 var fs = require("fs");
 
 
