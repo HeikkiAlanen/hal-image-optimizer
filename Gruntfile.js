@@ -13,6 +13,7 @@ module.exports = function(grunt) {
 			},
 			target: ['*.js', './lib/*.js']
 		},
+        clean: ['./test/test_images/thumbnails'],
 		nodeunit: {
 			all: ['./test/*_spec.js']
 		}
@@ -20,6 +21,7 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-eslint');
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
+  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.registerTask('default', ['eslint']);
-  grunt.registerTask('test', ['nodeunit', 'eslint']);
+  grunt.registerTask('test', ['eslint', 'clean', 'nodeunit']);
   };
