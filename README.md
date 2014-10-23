@@ -8,7 +8,7 @@ Simple application to optimize images for web usage.
 NOTE: Application uses EasyImage which is built on top of ImageMagick, so make sure ImageMagick is installed on your system.
 
 
-Planned features:
+##Planned features:
 - Starting point from the application "create-thumbnails"
 - User can define which kind of images are needed (size, name, format, quality)
   - from command line
@@ -16,18 +16,28 @@ Planned features:
 - User defined source directory
 - User defined target directory
 - Created images are placed in target directory
+- Task runner plugin. Plugin needs to be created as a separated project and there will be a repository for it. Process starts with installing grunt-init. Then gruntplugin is installed and run in a empty directory. Several files are generated e.g. package.js, Gruntfile.js, README.md, LICENSE-MIT and tasks folder. In this folder is the actual plugin code will be.
 
-Releases:
-v0.1.0: 
+##Releases:
+
+###v0.1.0 (released): 
 * Thumbnails can be created from given directory and placed into that directory. 
 * Help and usage output
 * Version, license and copyright information
 
-v0.2.0:
+###v0.2.0 (planned):
 * Unit tests added.
 * Grunt taken into use.
 * ESLint for linting the code.
 * Travis CI build & testing taken into use.
+
+###v0.3.0 (planned):
+* User defined source directory
+* User defined target directory
+* Created images are placed in target directory
+* Dependency monitoring
+* Grunt plugin
+
 
 The MIT License (MIT)
 
