@@ -25,7 +25,7 @@ NOTE: Application uses EasyImage which is built on top of ImageMagick, so make s
 * Help and usage output
 * Version, license and copyright information
 
-###v0.2.0 (planned):
+###v0.2.0 (released):
 * Unit tests added.
 * Grunt taken into use.
 * ESLint for linting the code.
