@@ -25,10 +25,12 @@
     "grunt-contrib-clean": "^0.6.0",
     "grunt-contrib-nodeunit": "^0.4.1",
     "grunt-eslint": "^1.1.0",
+    "istanbul": "^0.3.2",
     "load-grunt-tasks": "^0.6.0"
   },
   "scripts": {
-    "test": "grunt test"
+    "test": "grunt test",
+    "coverage": "istanbul cover ./node_modules/nodeunit/bin/nodeunit ./test"
   },
   "engines": {
     "node": ">=0.10"

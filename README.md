@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/HeikkiAlanen/hal-image-optimizer.svg?branch=master)](https://travis-ci.org/HeikkiAlanen/hal-image-optimizer)
+[![Coverage Status](https://coveralls.io/repos/HeikkiAlanen/hal-image-optimizer/badge.png)](https://coveralls.io/r/HeikkiAlanen/hal-image-optimizer)
 
 hal-image-optimizer
 ===================
