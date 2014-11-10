@@ -47,7 +47,8 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-istanbul');
   grunt.loadNpmTasks('grunt-contrib-nodeunit');
   grunt.loadNpmTasks('grunt-contrib-clean');
+  grunt.loadNpmTasks('grunt-env');
   grunt.registerTask('default', ['eslint']);
   grunt.registerTask('test', ['eslint', 'clean', 'nodeunit']);
-  grunt.registerTask('coverage', ['env:coverage', 'instrument', 'nodeunit', 'storeCoverage', 'makeReport']);
+  grunt.registerTask('coverage', ['clean', 'env:coverage', 'instrument', 'nodeunit', 'storeCoverage', 'makeReport']);
   };
