@@ -3,11 +3,14 @@ var fs = require("fs");
 
 
 exports.imgOptimizer = function(test) {
-		test.expect(0);
+		test.expect(2);
 		
-		//var value = imgOptimizer('./test/images');
-		//test.strictEqual(value, false, "Image folder not found");
+		var value1 = imgOptimizer('./test/images');
+		test.strictEqual(value1, false, "Image folder not found");
 		
+		var value2 = imgOptimizer('images');
+		test.strictEqual(value2, false, "Image folder not found");
+
 		// Compare source file and thumbnail count
         // 23.10.14/HAl: For some reason .execFile command is not working with unit testing (in easyimage.js)
 		//var value2 = imgOptimizer('./test/test_images');
