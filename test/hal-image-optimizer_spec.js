@@ -19,18 +19,9 @@ exports.imgOptimizer = function(test) {
     // Delete possible thumbnails folder before testing
     trgtFolder = "./test/test_images/thumbnails3";
     fs.removeSync(trgtFolder);
-    var value3 = imgOptimizer(testFolder, trgtFolder).then(
-        function(image) {
-            // Check if thumbnails folder created
-            var folder1 = fs.existsSync(trgtFolder);
-            test.equal(folder1, true, "Thumbnails folder not created.");
-            //fs.removeSync(trgtFolder);
-        },
-        function(err) {
-            console.log(err);
-            //fs.removeSync(trgtFolder);
-        }
-    );
+    var value3 = imgOptimizer(testFolder, trgtFolder);
+    var folder1 = fs.existsSync(trgtFolder);
+    test.equal(folder1, true, "Thumbnails folder not created.");
 
     // Test 4, thumbnails folder existing
     trgtFolder = "./test/test_images/thumbnails4";
@@ -38,23 +29,20 @@ exports.imgOptimizer = function(test) {
     // Check if thumbnails folder still exists
     var folder2 = fs.existsSync(trgtFolder);
     test.equal(folder2, true, "Thumbnails folder not existing.");
-    //fs.removeSync(trgtFolder);
 
     // Test x (MUST BE THE LAST TEST CASE)
     // Compare source file count and created thumbnails count
     trgtFolder = "./test/test_images/thumbnails5";
-    //fs.removeSync(trgtFolder);
+    fs.removeSync(trgtFolder);
     var value4 = imgOptimizer(testFolder, trgtFolder).then(
         function(image) {
             var imgFiles = fs.readdirSync(testFolder);
             var thumbFiles = fs.readdirSync(trgtFolder);
             test.equal(imgFiles.length-3, thumbFiles.length, "Thumbnails created OK."); // Excluding thumbnails folder
-            //fs.removeSync(trgtFolder);
             test.done();
         },
         function(err) {
             console.log(err);
-            //fs.removeSync(trgtFolder);
             test.done();
         }
     );
