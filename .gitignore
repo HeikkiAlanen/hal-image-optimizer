@@ -1,6 +1,6 @@
 # Images
 images
-test/test_images/thumbnails
+test/test_images/thumbnails*
 
 # Logs
 logs

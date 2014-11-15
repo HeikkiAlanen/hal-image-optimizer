@@ -4,6 +4,14 @@ var fs = require("fs-extra");
 var testFolder = "./test/test_images";
 var trgtFolder;
 
+// Remove test directories just in case
+trgtFolder = "./test/test_images/thumbnails3";
+fs.removeSync(trgtFolder);
+trgtFolder = "./test/test_images/thumbnails4";
+fs.removeSync(trgtFolder);
+trgtFolder = "./test/test_images/thumbnails5";
+fs.removeSync(trgtFolder);
+
 exports.imgOptimizer = function(test) {
     test.expect(5);
 
@@ -25,6 +33,7 @@ exports.imgOptimizer = function(test) {
 
     // Test 4, thumbnails folder existing
     trgtFolder = "./test/test_images/thumbnails4";
+    fs.ensureDir(trgtFolder);
     var value4 = imgOptimizer(testFolder, trgtFolder);
     // Check if thumbnails folder still exists
     var folder2 = fs.existsSync(trgtFolder);
