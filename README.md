@@ -33,13 +33,15 @@ NOTE: Application uses EasyImage which is built on top of ImageMagick, so make s
 * ESLint for linting the code.
 * Travis CI build & testing taken into use.
 
-###v0.3.0 (planned):
+###v0.3.0 (released):
 * User defined source directory
 * User defined target directory
 * Created images are placed in target directory
 * Dependency monitoring
-* Grunt plugin
 
+###v1.0.0 (planned):
+* Grunt plugin
+* Configuration file for module.
 
 The MIT License (MIT)
 
