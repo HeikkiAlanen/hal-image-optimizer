@@ -3,7 +3,7 @@
   "version": "0.3.0",
   "description": "Simple application to optimize images for web usage",
   "main": "./lib/hal-image-optimizer.js",
-  "bin": "./bin/cli.js",
+  "bin": "./bin/hal-image-optimizer",
   "keywords": [
     "imagemagick",
     "image",
@@ -14,7 +14,7 @@
     "LICENSE.md",
     "README.md",
     "lib",
-    "index.js"
+    "bin"
   ],
   "dependencies": {
     "easyimage": "^1.0.2",
