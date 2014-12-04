@@ -44,4 +44,4 @@ NOTE: Application uses EasyImage which is built on top of ImageMagick, so make s
 
 Copyright (c) [HeikkiAlanen](https://github.com/HeikkiAlanen)
 
-Licensed under the [MIT license](LICENSE-MIT).
+Licensed under the [MIT license](LICENSE-MIT)
