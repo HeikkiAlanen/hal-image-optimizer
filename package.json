@@ -1,6 +1,6 @@
 {
   "name": "hal-image-optimizer",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "Simple application to optimize images for web usage",
   "main": "./lib/hal-image-optimizer.js",
   "bin": "./bin/hal-image-optimizer",
